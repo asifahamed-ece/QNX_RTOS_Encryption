@@ -1,0 +1,20 @@
+# QNX Build Output (specific paths only)
+qnx_encrypt_client/build/
+qnx_encrypt_server/build/
+**/build/
+*.o
+*.d
+*.so
+*.a
+*.exe
+*.dll
+
+# IDE Metadata (optional)
+.cproject
+.project
+.settings/
+.metadata/
+
+# OS Files
+.DS_Store
+Thumbs.db
