@@ -9,15 +9,8 @@
 ## 📋 Table of Contents
 - [Prerequisites Compliance](#-prerequisites-compliance)
 - [Project Description](#-project-description)
-- [Architecture Overview](#-architecture-overview)
-- [Data Flow Diagram](#-data-flow-diagram)
-- [Repository Structure](#-repository-structure)
 - [Build Instructions](#-build-instructions)
 - [Execution Guide](#-execution-guide)
-- [Key QNX Concepts](#-key-qnx-concepts)
-- [Testing & Validation](#-testing--validation)
-- [Submission Checklist](#-submission-checklist)
-
 ---
 
 ## ✅ Prerequisites Compliance
