@@ -1,7 +1,7 @@
 # 🛡️ QNX Concurrent File Encryption Service
 
 > **Capstone Project** | QNX Neutrino RTOS | **Category**: INTERMEDIATE  
-> **Author**: Asifa Hamed | **Course**: QNX RTOS Training Program  
+> **Author**: Asif Ahamed | **Course**: QNX RTOS Training Program  
 > **Environment**: VMware Workstation Pro + QNX SDP 8.0 + Momentics IDE  
 
 ---
