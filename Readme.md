@@ -7,10 +7,11 @@
 ---
 
 ## 📋 Table of Contents
-- [Prerequisites Compliance](#-prerequisites-compliance)
-- [Project Description](#-project-description)
-- [Build Instructions](#-build-instructions)
-- [Execution Guide](#-execution-guide)
+- [Prerequisites Compliance](#prerequisites-compliance)
+- [Project Description](#project-description)
+- [Build Instructions](#build-instructions)
+- [Execution Guide](#execution-guide)
+  
 ---
 
 ## ✅ Prerequisites Compliance
@@ -50,9 +51,6 @@ The **Concurrent File Encryption Service** demonstrates advanced QNX Neutrino RT
 
 ---
 
-
----
-
 ## 🛠️ Build Instructions
 
 ### Prerequisites
@@ -81,48 +79,41 @@ Before building, ensure you have:
 #### **Method 1: Using Momentics IDE (Recommended)**
 
 1. **Launch Momentics IDE**
-
-
 2. **Import Server Project**
-- `File → Import → General → Existing Projects into Workspace`
-- Browse to: `qnx_encrypt_server/` folder
-- Click **Finish**
-
+   - `File → Import → General → Existing Projects into Workspace`
+   - Browse to: `qnx_encrypt_server/` folder
+   - Click **Finish**
 3. **Import Client Project**
-- Repeat Step 2 for: `qnx_encrypt_client/` folder
-
+   - Repeat Step 2 for: `qnx_encrypt_client/` folder
 4. **Verify Build Configuration**
-- Right-click `qnx_encrypt_server` → `Build Configurations → Set Active → Debug`
-- Right-click `qnx_encrypt_client` → `Build Configurations → Set Active → Debug`
-
+   - Right-click `qnx_encrypt_server` → `Build Configurations → Set Active → Debug`
+   - Right-click `qnx_encrypt_client` → `Build Configurations → Set Active → Debug`
 5. **Build Server**
-- Right-click `qnx_encrypt_server` → `Build Project`
-- **OR** press `Ctrl+B` (with project selected)
-- **Expected Output**:
-  ```
-  **** Build of configuration Debug for project qnx_encrypt_server ****
-  make -j8 all
-  Building file: ../src/server.c
-  Invoking: QNX Compiler
-  qcc -Vgcc_ntox86_64 -c -g -O0 -fno-builtin -Wall -Wextra \
-      -I"/path/to/qnx_encrypt_server/src" -MMD -MP -MF"src/server.d" \
-      -MT"build/Debug/x86_64/src/server.o" -o "build/Debug/x86_64/src/server.o" \
-      "../src/server.c"
-  Building target: build/Debug/x86_64/qnx_encrypt_server
-  Invoking: QNX C Linker
-  qcc -Vgcc_ntox86_64 -L"/path/to/libs" -o "build/Debug/x86_64/qnx_encrypt_server" \
-      "build/Debug/x86_64/src/server.o" -lpthread
-  Finished building target
-  **** Build Finished ****
-  ```
-
+   - Right-click `qnx_encrypt_server` → `Build Project`
+   - **OR** press `Ctrl+B` (with project selected)
+   - **Expected Output**:
+     ```text
+     **** Build of configuration Debug for project qnx_encrypt_server ****
+     make -j8 all
+     Building file: ../src/server.c
+     Invoking: QNX Compiler
+     qcc -Vgcc_ntox86_64 -c -g -O0 -fno-builtin -Wall -Wextra \
+         -I"/path/to/qnx_encrypt_server/src" -MMD -MP -MF"src/server.d" \
+         -MT"build/Debug/x86_64/src/server.o" -o "build/Debug/x86_64/src/server.o" \
+         "../src/server.c"
+     Building target: build/Debug/x86_64/qnx_encrypt_server
+     Invoking: QNX C Linker
+     qcc -Vgcc_ntox86_64 -L"/path/to/libs" -o "build/Debug/x86_64/qnx_encrypt_server" \
+         "build/Debug/x86_64/src/server.o" -lpthread
+     Finished building target
+     **** Build Finished ****
+     ```
 6. **Build Client**
-- Right-click `qnx_encrypt_client` → `Build Project`
-- Verify no errors in Console view
-
+   - Right-click `qnx_encrypt_client` → `Build Project`
+   - Verify no errors in Console view
 7. **Verify Binaries**
-- Server: `qnx_encrypt_server/build/x86_64-debug/qnx_encrypt_server`
-- Client: `qnx_encrypt_client/build/x86_64-debug/qnx_encrypt_client`
+   - Server: `qnx_encrypt_server/build/x86_64-debug/qnx_encrypt_server`
+   - Client: `qnx_encrypt_client/build/x86_64-debug/qnx_encrypt_client`
 
 #### **Method 2: Command Line (Advanced)**
 
