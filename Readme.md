@@ -7,11 +7,11 @@
 ---
 
 ## 📋 Table of Contents
-- [Prerequisites Compliance](#prerequisites-compliance)
-- [Project Description](#project-description)
+
+- [Prerequisites Compliance](#-prerequisites-compliance)
+- [Project Description](#-project-description)
 - [Build Instructions](#build-instructions)
-- [Execution Guide](#execution-guide)
-  
+
 ---
 
 ## ✅ Prerequisites Compliance
@@ -51,7 +51,7 @@ The **Concurrent File Encryption Service** demonstrates advanced QNX Neutrino RT
 
 ---
 
-## 🛠️ Build Instructions
+## Build Instructions
 
 ### Prerequisites
 
