@@ -1,4 +1,4 @@
-# 🛡️ QNX Concurrent File Encryption Service
+# QNX Concurrent File Encryption Service
 
 > **Capstone Project** | QNX Neutrino RTOS | **Category**: INTERMEDIATE  
 > **Author**: Asif Ahamed | **Course**: QNX RTOS Training Program  
